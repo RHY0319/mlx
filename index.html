@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    
+<meta property="og:title" content="">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:type" content="website">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Happy Monthsary ❤️</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<!-- Floating Hearts -->
+
+<div class="hearts"></div>
+
+<!-- Falling Petals -->
+
+<div class="petals"></div>
+
+<!-- =============================
+LOGIN PAGE
+============================= -->
+
+<section id="loginPage" class="page active">
+
+<div class="glass-card">
+
+<h1>Happy Monthsary ❤️</h1>
+
+<p class="subtitle">
+
+Enter Password
+
+</p>
+
+<div id="display" class="display">
+
+♡ ♡ ♡ ♡ ♡ ♡
+
+</div>
+
+<div class="keypad">
+
+<button onclick="press('1')"><span>1</span></button>
+
+<button onclick="press('2')"><span>2</span></button>
+
+<button onclick="press('3')"><span>3</span></button>
+
+<button onclick="press('4')"><span>4</span></button>
+
+<button onclick="press('5')"><span>5</span></button>
+
+<button onclick="press('6')"><span>6</span></button>
+
+<button onclick="press('7')"><span>7</span></button>
+
+<button onclick="press('8')"><span>8</span></button>
+
+<button onclick="press('9')"><span>9</span></button>
+
+<button onclick="removeNumber()">
+
+⌫
+
+</button>
+
+<button onclick="press('0')">
+
+♡<span>0</span>
+
+</button>
+
+<button onclick="clearPassword()">
+
+✕
+</button>
+
+</div>
+
+<button id="enterBtn" class="enterBtn">
+
+Unlock ❤️
+
+</button>
+
+</div>
+
+</section>
+
+<!-- =============================
+HOME PAGE
+============================= -->
+
+<section id="homePage" class="page">
+
+<div class="home">
+
+<h1>Happy Monthsary, My Babyyy!</h1>
+
+<p>
+
+Another Month Down hihi
+
+</p>
+
+<div class="cards">
+
+<div class="card" id="letterCard">
+
+💌
+
+<h3>My Message</h3>
+
+</div>
+
+<div class="card" id="musicCard">
+
+🎵
+
+<h3>A Song For You</h3>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- =============================
+ENVELOPE POPUP
+============================= -->
+
+<div id="envelopePopup" class="popup">
+
+<div class="envelope-container">
+
+<div class="envelope">
+
+<div class="envelope-front">
+
+💌
+
+<p>Open Me ❤️</p>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<!-- =============================
+LETTER POPUP
+============================= -->
+
+<div id="letterPopup" class="popup">
+
+<div class="popup-content scrapbook">
+
+<button id="closeLetter" class="closeBtn">
+
+✕
+
+</button>
+
+<h2>
+
+Happy Monthsary ❤️
+
+</h2>
+
+<div class="scrapbook-content">
+
+<div class="photo-row">
+
+<div class="photo-card left">
+<img src="kyut.jpg">
+</div>
+
+<div class="photo-card center">
+<img src="r.jpg">
+</div>
+
+<div class="photo-card right">
+<img src="c.jpg">
+</div>
+
+</div>
+
+<div class="letter-box">
+
+<p>
+Happy Monthsary to us baby ko:)
+
+we've known each other since january pa, kasla kaanu lang idi haha. I'm so grateful that this year started with you. You came into my life when i needed someone the most and u healed me in so many ways :) Thank you for unexpectedly coming into my life babyy
+Thank youu for loving me and staying with me, Thank you for being my biggest supporter. I really appreciate you so much babyy ko.kahit malayo ka you always know how to make me feel loved at sobrang grateful ako dun.
+</p>
+
+</div>
+
+<div class="letter-box">
+
+<p>
+
+wag masyado i-pressure ang sarili sa acads ha? do ur best lang palagi, i'm always proud of youuu no matter what. ammuk kayang kayam ata baby, ikaw pa hehe. tatta mapalaban ta ldr'n. don't ever think nga isukat ken agituy cm ko or wut haha di ko gagawin yun. 
+syak gayam isukat mu su HAHAHA wanen a. Anus anus lang knyak baby hahaha. I really miss u so muchh na ikapuy ku talaga kunam. miss ku agjy hugs ken lapl- mon HAHAHA. can't wait to see u again baby. basta ingat ka kanayun wen? alalwadam bagbagim ken agbasa ka nalaing babyy. walang susuko satin ha? 
+
+I LOVE YOUU ALWAYS BABYY KO I MISS U SO MUCHHH
+
+</p>
+
+</div>
+
+</div>
+</div>
+</div>
+
+<!-- =============================
+MUSIC POPUP
+============================= -->
+
+<div id="musicPopup" class="popup">
+
+<div class="popup-content music-content">
+
+<button id="closeMusic" class="closeBtn">
+
+✕
+
+</button>
+
+<h2>
+
+dedicating this song to youu :)
+
+</h2>
+
+<div class="album">
+
+<img src="cover.jpg" alt="Album Cover">
+
+</div>
+
+<div id="lyricsContainer">
+
+<p id="lyricsText">
+
+❤️
+
+</p>
+
+</div>
+
+<audio id="loveSong" controls>
+
+<source src="song1.mp3" type="audio/mpeg">
+
+</audio>
+
+</div>
+
+</div>
+
+<!-- =============================
+BACKGROUND MUSIC FOR LETTER
+============================= -->
+
+<audio id="letterMusic" loop preload="auto">
+
+    <source src="song2.mp3" type="audio/mpeg">
+
+</audio>
+
+<!-- =============================
+BACKGROUND DECORATIONS
+============================= -->
+
+<div class="sparkles"></div>
+
+<!-- =============================
+SCRIPT
+============================= -->
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
